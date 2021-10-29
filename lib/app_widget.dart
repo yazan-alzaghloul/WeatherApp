@@ -15,11 +15,18 @@ class AppWidget extends StatefulWidget {
 class _AppWidgetState extends State<AppWidget> {
   @override
   Widget build(BuildContext context) {
+    /// Change the status bar color
     SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle.dark.copyWith(
         statusBarColor: Colors.transparent, // Color for Android
         statusBarBrightness:
             Brightness.dark, // Dark == white status bar -- for IOS.
         systemNavigationBarColor: Colors.black));
+
+    /// Force portrait
+    SystemChrome.setPreferredOrientations([
+      DeviceOrientation.portraitUp,
+      DeviceOrientation.portraitDown,
+    ]);
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       localizationsDelegates: context.localizationDelegates,
@@ -27,11 +34,6 @@ class _AppWidgetState extends State<AppWidget> {
       locale: context.locale,
       initialRoute: "/",
       onGenerateTitle: (context) => LocaleKeys.appName.tr(),
-      theme: ThemeData(
-          primarySwatch: Colors.blue,
-          canvasColor: Colors.white,
-          bottomSheetTheme:
-              BottomSheetThemeData(backgroundColor: Colors.transparent)),
     ).modular();
   }
 }
