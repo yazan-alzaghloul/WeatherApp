@@ -1,4 +1,5 @@
 import 'package:flutter_modular/flutter_modular.dart';
+import 'package:weather_app/modules/anotherDay/another_day_module.dart';
 import 'package:weather_app/modules/home/home_module.dart';
 import 'package:weather_app/modules/splash/splash_module.dart';
 import 'package:weather_app/shared/networking/dio_factory.dart';
@@ -15,5 +16,6 @@ class AppModule extends Module {
   final List<ModularRoute> routes = [
     ModuleRoute(SplashModule.initialRoute, module: SplashModule()),
     ModuleRoute(HomeModule.initialRoute, module: HomeModule()),
+    ModuleRoute(AnotherDayModule.initialRoute, module: AnotherDayModule()),
   ];
 }

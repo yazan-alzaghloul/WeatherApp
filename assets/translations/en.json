@@ -3,5 +3,8 @@
   "generalError": "Error happened, please try later!",
   "emptyResponse": "Empty Response",
   "SomethingIsWrong": "Something is wrong",
-  "ResentCode": "Resent Code Successfully"
+  "ResentCode": "Resent Code Successfully",
+  "WindSpeed": "Wind speed",
+  "Humidity": "Humidity",
+  "Pressure": "Pressure"
 }

@@ -35,8 +35,9 @@ class CustomNetworkImage extends StatelessWidget {
             width: width,
             child: Center(
                 child: Icon(
-              Icons.person,
-              size: 40,
+              Icons.terrain_outlined,
+              color: Colors.white,
+              size: 24,
             )));
       },
     );

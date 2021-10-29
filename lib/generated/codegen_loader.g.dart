@@ -19,14 +19,20 @@ class CodegenLoader extends AssetLoader{
   "generalError": "حدث خطأ.. الرجاء المحاولة في وقت لاحق",
   "emptyResponse": "لايوجد نتائج لعرضها",
   "SomethingIsWrong": "هناك شي خاطئ",
-  "ResentCode": "تم إرسال الرمز بنجاح"
+  "ResentCode": "تم إرسال الرمز بنجاح",
+  "WindSpeed": "Wind speed",
+  "Humidity": "Humidity",
+  "Pressure": "Pressure"
 };
 static const Map<String,dynamic> en = {
   "appName": "Weather App",
   "generalError": "Error happened, please try later!",
   "emptyResponse": "Empty Response",
   "SomethingIsWrong": "Something is wrong",
-  "ResentCode": "Resent Code Successfully"
+  "ResentCode": "Resent Code Successfully",
+  "WindSpeed": "Wind speed",
+  "Humidity": "Humidity",
+  "Pressure": "Pressure"
 };
 static const Map<String, Map<String,dynamic>> mapLocales = {"ar": ar, "en": en};
 }

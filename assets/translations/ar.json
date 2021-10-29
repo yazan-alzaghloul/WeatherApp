@@ -3,5 +3,8 @@
   "generalError": "حدث خطأ.. الرجاء المحاولة في وقت لاحق",
   "emptyResponse": "لايوجد نتائج لعرضها",
   "SomethingIsWrong": "هناك شي خاطئ",
-  "ResentCode": "تم إرسال الرمز بنجاح"
+  "ResentCode": "تم إرسال الرمز بنجاح",
+  "WindSpeed": "Wind speed",
+  "Humidity": "Humidity",
+  "Pressure": "Pressure"
 }

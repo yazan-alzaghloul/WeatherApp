@@ -6,5 +6,8 @@ abstract class  LocaleKeys {
   static const emptyResponse = 'emptyResponse';
   static const SomethingIsWrong = 'SomethingIsWrong';
   static const ResentCode = 'ResentCode';
+  static const WindSpeed = 'WindSpeed';
+  static const Humidity = 'Humidity';
+  static const Pressure = 'Pressure';
 
 }
