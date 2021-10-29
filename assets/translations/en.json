@@ -1,0 +1,7 @@
+{
+  "appName": "Weather App",
+  "generalError": "Error happened, please try later!",
+  "emptyResponse": "Empty Response",
+  "SomethingIsWrong": "Something is wrong",
+  "ResentCode": "Resent Code Successfully"
+}

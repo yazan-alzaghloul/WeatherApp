@@ -1,0 +1,7 @@
+{
+  "appName": "Weather App",
+  "generalError": "حدث خطأ.. الرجاء المحاولة في وقت لاحق",
+  "emptyResponse": "لايوجد نتائج لعرضها",
+  "SomethingIsWrong": "هناك شي خاطئ",
+  "ResentCode": "تم إرسال الرمز بنجاح"
+}
