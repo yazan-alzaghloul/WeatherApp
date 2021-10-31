@@ -34,11 +34,16 @@ class WeatherResponseModel {
         timezone: json["timezone"],
         timezoneOffset: json["timezone_offset"],
         current: Current.fromJson(json["current"]),
-        minutely: List<Minutely>.from(
-            json["minutely"].map((x) => Minutely.fromJson(x))),
-        hourly:
-            List<Current>.from(json["hourly"].map((x) => Current.fromJson(x))),
-        daily: List<Daily>.from(json["daily"].map((x) => Daily.fromJson(x))),
+        minutely: json["minutely"] != null
+            ? List<Minutely>.from(
+                json["minutely"].map((x) => Minutely.fromJson(x)))
+            : [],
+        hourly: json["hourly"] != null
+            ? List<Current>.from(json["hourly"].map((x) => Current.fromJson(x)))
+            : [],
+        daily: json["daily"] != null
+            ? List<Daily>.from(json["daily"].map((x) => Daily.fromJson(x)))
+            : [],
       );
 
   Map<String, dynamic> toJson() => {
